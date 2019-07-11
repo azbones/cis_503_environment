@@ -7,7 +7,7 @@ Docker and its associated open source technology allow data scientists and devel
 
 Figure 1. The Docker Environment
 
-<div style="text-align:center"><img src="/images/docker_overview.png" /></div>
+<div style="text-align:center"><img src="https://github.com/azbones/cis_503_environment/blob/gh-pages/images/docker_overview.png" /></div>
 
 
 Note: there is only one lab assignment required for each group, so there is not a requirement that everyone must install and run the lab exercises on their personal computer. While Docker should work for most newer computers, there may be cases where it can’t be installed. Your lab assignment can be completed by working together on a single computer. Some teams find it more effective to use “pair programming” methodologies where one team member is the driver (responsible for typing code) and other team members are navigators (giving the driver instructions on what to do next).
@@ -23,7 +23,7 @@ free available here- https://myapps.asu.edu/app/windows-10-home-usage
 
 2. Depending on your Windows setup, you may have to enable Hyper-V and Containers which requires a restart. Documentation is available here- https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
 
-<div style="text-align:center"><img src="/images/hyper-v.png" /></div>
+<div style="text-align:center"><img src="https://github.com/azbones/cis_503_environment/blob/gh-pages/images/hyper-v.png" /></div>
 
 
 **Mac OSX:**
@@ -76,8 +76,8 @@ You should see output similar to the following:
 [I 23:02:06.524 NotebookApp] http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
 [I 23:02:06.524 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [C 23:02:06.528 NotebookApp]
-
-    To access the notebook, open this file in a browser:
+```
+```   To access the notebook, open this file in a browser:
         file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html
     Or copy and paste one of these URLs:
         http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
@@ -85,8 +85,8 @@ You should see output similar to the following:
 
 4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL http://127.0.0.1:4444 in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page. Cut and paste the token from your terminal output into the “Password or token” field and press the Log in button. In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output.
 
-<div style="text-align:center"><img src="/images/token_paste.png" /></div>
+<div style="text-align:center"><img src="https://github.com/azbones/cis_503_environment/blob/gh-pages/images/token_paste.png" /></div>
 
 5. Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
 
-<div style="text-align:center"><img src="/images/notebook_works.png" /></div>
+<div style="text-align:center"><img src="https://github.com/azbones/cis_503_environment/blob/gh-pages/images/notebook_works.png" /></div>
