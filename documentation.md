@@ -1,4 +1,4 @@
-##Introduction to Docker
+## Introduction to Docker
 
 We are using Docker to manage the environments we are using for the labs in CIS 503. Docker is a technology that is increasingly being used by data scientists to make working together using the same tools and technologies easier. Data scientists use many different technologies. In our class labs, for example, we will use the statistical programming language R, but we will also use over a dozen different R packages and libraries including those for plotting and machine learning. Some of these libraries require very specific set up procedures depending on the operating system. So, when working separately on the same analysis, setting up the same technical environment can be very challenging.
 
@@ -10,7 +10,7 @@ Figure 1. The Docker Environment
 
 Note: there is only one lab assignment required for each group, so there is not a requirement that everyone must install and run the lab exercises on their personal computer. While Docker should work for most newer computers, there may be cases where it can’t be installed. Your lab assignment can be completed by working together on a single computer. Some teams find it more effective to use “pair programming” methodologies where one team member is the driver (responsible for typing code) and other team members are navigators (giving the driver instructions on what to do next).
 
-###Installing Docker on your Desktop
+### Installing Docker on your Desktop
 
 1. To get started, you will need to download Docker Desktop on your computer. Docker requires you to set up an account on Docker Hub, but the account is free to set up.
 2. In addition to the system requirements for Docker, you will need at least 6 GB of available storage to download the lab image for our class.
@@ -58,7 +58,7 @@ azbones/cis503 latest      8d85a0b62612   2 weeks ago    5.55GB
 ```
 
 2. Run the CIS503 docker image. Once you have docker running on your computer and have downloaded the CIS503 image, you can run the environment. The environment includes Jupyter Notebook and all of the statistical software and libraries we will use in the lab.
-* Start the Jupyter environment.  To start the environment, type the following command in your terminal window:
+3. Start the Jupyter environment.  To start the environment, type the following command in your terminal window:
 
 `docker run -p 4444:8888 azbones/cis503`
 
@@ -80,8 +80,8 @@ You should see output similar to the following:
         http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
 ```
 
-* Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL http://127.0.0.1:4444 in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page. Cut and paste the token from your terminal output into the “Password or token” field and press the Log in button. In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output.
+4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL http://127.0.0.1:4444 in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page. Cut and paste the token from your terminal output into the “Password or token” field and press the Log in button. In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output.
 
 
 
-* Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
+5. Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
