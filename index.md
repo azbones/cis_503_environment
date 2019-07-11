@@ -21,7 +21,7 @@ Note: there is only one lab assignment required for each group, so there is not 
 1. For Windows, Docker Desktop requires Windows 10 64-bit Pro, Enterprise, or Education. Details for Windows installs can be found here- [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/). Windows 10 Home Edition does not support Docker Desktop, but ASU has a program that allows students to upgrade for
 free available here- [https://myapps.asu.edu/app/windows-10-home-usage](https://myapps.asu.edu/app/windows-10-home-usage)
 
-2. Depending on your Windows setup, you may have to enable Hyper-V and Containers which requires a restart. Documentation is available here- [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v])
+2. Depending on your Windows setup, you may have to enable Hyper-V and Containers which requires a restart. Documentation is available here- [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 
 <div style="text-align:center"><img src="images/hyper-v.png" /></div>
 
