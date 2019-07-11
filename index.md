@@ -46,7 +46,8 @@ To download the CIS 503 image, in your terminal window, type the following:
 
 The first time you download the image, it will take several minutes depending on your computer speed and the speed of your Internet connection. Given the image is large, try to set aside time to do this when you have a fast and high quality connection like on campus. When the image has been downloaded successfully, you should see a status message similar to the following:
 
-```Digest: a very long alphanumeric string
+```
+Digest: a very long alphanumeric string
 Status: Downloaded newer image for azbones/cis503:latest
 ```
 
@@ -56,7 +57,8 @@ You can list all the Docker images on your computer with the following command:
 
 After you have downloaded the class image, you should see an output similar to the following when you run the “image” command:
 
-```REPOSITORY     TAG         IMAGE ID       CREATED        SIZE
+```
+REPOSITORY     TAG         IMAGE ID       CREATED        SIZE
 azbones/cis503 latest      8d85a0b62612   2 weeks ago    5.55GB
 ```
 
@@ -67,7 +69,8 @@ azbones/cis503 latest      8d85a0b62612   2 weeks ago    5.55GB
 
 You should see output similar to the following:
 
-```Executing the command: jupyter notebook
+```
+Executing the command: jupyter notebook
 [I 23:02:05.305 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
 [I 23:02:06.522 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
 [I 23:02:06.522 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
