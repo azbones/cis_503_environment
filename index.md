@@ -76,8 +76,7 @@ You should see output similar to the following:
 [I 23:02:06.524 NotebookApp] http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
 [I 23:02:06.524 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [C 23:02:06.528 NotebookApp]
-```
-```   To access the notebook, open this file in a browser:
+    To access the notebook, open this file in a browser:
         file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html
     Or copy and paste one of these URLs:
         http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
