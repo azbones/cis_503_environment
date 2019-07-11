@@ -7,7 +7,7 @@ Docker and its associated open source technology allow data scientists and devel
 
 Figure 1. The Docker Environment
 
-[docker overview](/images/docker_overview.png)
+<div style="text-align:center"><img src="/images/docker_overview.png" /></div>
 
 
 Note: there is only one lab assignment required for each group, so there is not a requirement that everyone must install and run the lab exercises on their personal computer. While Docker should work for most newer computers, there may be cases where it can’t be installed. Your lab assignment can be completed by working together on a single computer. Some teams find it more effective to use “pair programming” methodologies where one team member is the driver (responsible for typing code) and other team members are navigators (giving the driver instructions on what to do next).
