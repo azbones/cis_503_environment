@@ -27,7 +27,7 @@ free available here- https://myapps.asu.edu/app/windows-10-home-usage
 
 1. For Macs, the hardware must be a 2010 or newer model, with Intel’s hardware support for memory management unit (MMU) virtualization, including Extended Page Tables (EPT) and Unrestricted Mode. macOS Sierra 10.12 and newer macOS releases are supported.  Installation instructions are here- https://docs.docker.com/docker-for-mac/install/
 
-###Getting and Running the CIS503 Docker Image
+### Getting and Running the CIS503 Docker Image
 
 The primary way to interact with Docker is via a terminal window (command line). There are only a few commands you need to use to install and use the CIS503 environment.
 
