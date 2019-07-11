@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/r,python,jupyternotebook
 
+# Mac
+.DS_Store
+
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
