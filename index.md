@@ -86,7 +86,7 @@ Executing the command: jupyter notebook
     http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
 ```
 
-4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL [http://127.0.0.1:4444](http://127.0.0.1:4444) in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page. Cut and paste the token from your terminal output into the “Password or token” field and press the Log in button. In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output.
+4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL [http://127.0.0.1:4444](http://127.0.0.1:4444) in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page. Cut and paste the token from your terminal output into the “Password or token” field and press the Log in button. In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output. *Don't close your terminal window. When you are finished using your notebooks, you can go back to the terminal and press `control-c` to stop your environment.*
 
 <div style="text-align:center"><img src="images/token_paste.png" /></div>
 
