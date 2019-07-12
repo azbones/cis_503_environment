@@ -93,3 +93,9 @@ Executing the command: jupyter notebook
 5. Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
 
 <div style="text-align:center"><img src="images/notebook_works.png" /></div>
+
+### Uninstall Docker
+
+If you would like to uninstall Docker and the CIS 503 environment, open the Docker application and navigate to the "reset" menu and select "uninstall".
+
+<div style="text-align:center"><img src="images/uninstall.png" /></div>
