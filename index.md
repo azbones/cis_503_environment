@@ -15,7 +15,8 @@ Note: there is only one lab assignment required for each group, so there is not 
 ### Installing Docker on your Desktop
 
 1. To get started, you will need to download Docker Desktop on your computer. Docker requires you to set up an account on Docker Hub, but the account is free to set up.
-2. In addition to the system requirements for Docker, you will need at least 6 GB of available storage to download the lab image for our class.
+2. You will also need to make sure Docker is running before you can enter any commands in your terminal. You can either have it start automatically upon boot up or you can manually start it by launching the application.
+3. In addition to the system requirements for Docker, you will need at least 6 GB of available storage to download the lab image for our class.
 
 **Windows:**
 1. For Windows, Docker Desktop requires Windows 10 64-bit Pro, Enterprise, or Education. Details for Windows installs can be found here- [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/). Windows 10 Home Edition does not support Docker Desktop, but ASU has a program that allows students to upgrade for
