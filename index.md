@@ -40,71 +40,71 @@ The primary way to interact with Docker is via a terminal window (command line).
 
 1. Download the CIS503 image. After you install and start Docker Desktop, the first step is to download (called “pull” in Docker terms) the class image from Docker hub. The image we will use for class is publicly available from the Docker cloud. The repository page for this image is: [https://hub.docker.com/r/azbones/cis503](https://hub.docker.com/r/azbones/cis503). In order to download the image, you will need to open up a terminal window on your computer.
 
-**In Windows**, you can use can use PowerShell for your terminal. Details about it are here- [https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell)
+    **In Windows**, you can use can use PowerShell for your terminal. Details about it are here- [https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell)
 
-**In Mac OSX**, you can use terminal. Details about it are here- [https://support.apple.com/guide/terminal/welcome/mac](https://support.apple.com/guide/terminal/welcome/mac)
+    **In Mac OSX**, you can use terminal. Details about it are here- [https://support.apple.com/guide/terminal/welcome/mac](https://support.apple.com/guide/terminal/welcome/mac)
 
-To download the CIS 503 image, in your terminal window, type the following:
+    To download the CIS 503 image, in your terminal window, type the following:
 
-`docker pull azbones/cis503`
+    `docker pull azbones/cis503`
 
-The first time you download the image, it will take several minutes depending on your computer speed and the speed of your Internet connection. Given the image is large, try to set aside time to do this when you have a fast and high quality connection like on campus. When the image has been downloaded successfully, you should see a status message similar to the following:
+    The first time you download the image, it will take several minutes depending on your computer speed and the speed of your Internet connection. Given the image is large, try to set aside time to do this when you have a fast and high quality connection like on campus. When the image has been downloaded successfully, you should see a status message similar to the following:
 
-```
-Digest: a very long alphanumeric string
-Status: Downloaded newer image for azbones/cis503:latest
-```
+    ```
+    Digest: a very long alphanumeric string
+    Status: Downloaded newer image for azbones/cis503:latest
+    ```
 
-You can list all the Docker images on your computer with the following command:
+    You can list all the Docker images on your computer with the following command:
 
-`docker image ls`
+    `docker image ls`
 
-After you have downloaded the class image, you should see an output similar to the following when you run the “image” command:
+    After you have downloaded the class image, you should see an output similar to the following when you run the “image” command:
 
-```
-REPOSITORY     TAG         IMAGE ID       CREATED        SIZE
-azbones/cis503 latest      8d85a0b62612   2 weeks ago    5.55GB
-```
+    ```
+    REPOSITORY     TAG         IMAGE ID       CREATED        SIZE
+    azbones/cis503 latest      8d85a0b62612   2 weeks ago    5.55GB
+    ```
 
 2. Run the CIS503 docker image. Once you have docker running on your computer and have downloaded the CIS503 image, you can run the environment. The environment includes Jupyter Notebook and all of the statistical software and libraries we will use in the lab.
 3. Start the Jupyter environment.  To start the environment, type the following command in your terminal window:
 
-`docker run -p 4444:8888 --name cis503 azbones/cis503`
+    `docker run -p 4444:8888 --name cis503 azbones/cis503`
 
-You should see output similar to the following:
+    You should see output similar to the following:
 
-```
-Executing the command: jupyter notebook
-[I 23:02:05.305 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
-[I 23:02:06.522 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
-[I 23:02:06.522 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
-[I 23:02:06.524 NotebookApp] Serving notebooks from local directory: /home/jovyan
-[I 23:02:06.524 NotebookApp] The Jupyter Notebook is running at:
-[I 23:02:06.524 NotebookApp] http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
-[I 23:02:06.524 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 23:02:06.528 NotebookApp]
+    ```
+    Executing the command: jupyter notebook
+    [I 23:02:05.305 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+    [I 23:02:06.522 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+    [I 23:02:06.522 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+    [I 23:02:06.524 NotebookApp] Serving notebooks from local directory: /home/jovyan
+    [I 23:02:06.524 NotebookApp] The Jupyter Notebook is running at:
+    [I 23:02:06.524 NotebookApp] http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
+    [I 23:02:06.524 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+    [C 23:02:06.528 NotebookApp]
 
-  To access the notebook, open this file in a browser:
+    To access the notebook, open this file in a browser:
     file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html
-  Or copy and paste one of these URLs:
+    Or copy and paste one of these URLs:
     http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
-```
+    ```
 
 4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL [http://127.0.0.1:4444](http://127.0.0.1:4444) in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page.
 
 5. Cut and paste the token from your terminal output into the "Token” field under the "Setup a Password" section at the bottom. Enter a password that you will remember in the "New Password" field and press "Log in and set new password". In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output. *Don't close your terminal window. When you are finished using your notebooks, you can go back to the terminal and press `control-c` to stop your environment.*
 
-<div style="text-align:center"><img src="images/token_paste.png" /></div>
+    <div style="text-align:center"><img src="images/token_paste.png" /></div>
 
-5. Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
+6. Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
 
-<div style="text-align:center"><img src="images/notebook_works.png" /></div>
+    <div style="text-align:center"><img src="images/notebook_works.png" /></div>
 
-6. You can stop docker by hitting `control-c` in your terminal window or typing `docker stop cis503` in a terminal window.
+7. You can stop docker by hitting `control-c` in your terminal window or typing `docker stop cis503` in a terminal window.
 
-7. If you want to start the docker container again after you stop it, navigate to your terminal and enter `docker start cis503` and then navigate to [http://127.0.0.1:4444](http://127.0.0.1:4444) where you will have to enter the password you provided the first time you logged in.
+8. If you want to start the docker container again after you stop it, navigate to your terminal and enter `docker start cis503` and then navigate to [http://127.0.0.1:4444](http://127.0.0.1:4444) where you will have to enter the password you provided the first time you logged in.
 
-<div style="text-align:center"><img src="images/password.png" /></div>
+    <div style="text-align:center"><img src="images/password.png" /></div>
 
 ### Uninstall Docker
 
