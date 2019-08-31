@@ -69,7 +69,7 @@ azbones/cis503 latest      8d85a0b62612   2 weeks ago    5.55GB
 2. Run the CIS503 docker image. Once you have docker running on your computer and have downloaded the CIS503 image, you can run the environment. The environment includes Jupyter Notebook and all of the statistical software and libraries we will use in the lab.
 3. Start the Jupyter environment.  To start the environment, type the following command in your terminal window:
 
-`docker run -p 4444:8888 azbones/cis503`
+`docker run -p 4444:8888 --name cis503 azbones/cis503`
 
 You should see output similar to the following:
 
@@ -90,13 +90,21 @@ Executing the command: jupyter notebook
     http://(c582c1105517 or 127.0.0.1):8888/?token=7defdce4488403502b1f400358f56985e5aada3b82961ee0
 ```
 
-4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL [http://127.0.0.1:4444](http://127.0.0.1:4444) in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page. Cut and paste the token from your terminal output into the “Password or token” field and press the Log in button. In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output. *Don't close your terminal window. When you are finished using your notebooks, you can go back to the terminal and press `control-c` to stop your environment.*
+4. Open the local server URL in your web browser. To open your Jupyter Notebook, you need to open the URL [http://127.0.0.1:4444](http://127.0.0.1:4444) in your web browser. Google’s Chrome browser is recommended. The web page will require you to enter the token from the output in your terminal into the field on the Jupyter login page.
+
+5. Cut and paste the token from your terminal output into the "token” field under the "Setup a Password" section at the bottom. Enter a password that you will remember in the "New Password" field and press "Log in and set new password". In this case the token is “7defdce4488403502b1f400358f56985e5aada3b82961ee0”. Make sure you only use the token and not any spaces or other characters from the output. *Don't close your terminal window. When you are finished using your notebooks, you can go back to the terminal and press `control-c` to stop your environment.*
 
 <div style="text-align:center"><img src="images/token_paste.png" /></div>
 
 5. Open the Jupyter Notebook. We will run through the lab as a class, but you can check to make sure everything is working by clicking into the web links like “cis503_data_science_tools”.
 
 <div style="text-align:center"><img src="images/notebook_works.png" /></div>
+
+6. You can stop docker by hitting `control-c` in your terminal window or typing `docker stop cis503` in a terminal window.
+
+7. If you want to start the docker container again after you stop it, navigate to your terminal and enter `docker start cis503` and then navigate to [http://127.0.0.1:4444](http://127.0.0.1:4444) where you will have to enter the password you provided the first time you logged in.
+
+<div style="text-align:center"><img src="images/password.png" /></div>
 
 ### Uninstall Docker
 
