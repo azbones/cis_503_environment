@@ -19,7 +19,7 @@ Note: there is only one lab assignment required for each group, so there is not 
 https://docs.docker.com/docker-for-windows/install/
 https://docs.docker.com/docker-for-mac/install/
 2. You will also need to make sure Docker is running before you can enter any commands in your terminal. You can either have it start automatically upon boot up or you can manually start it by launching the application.
-3. In addition to the system requirements for Docker, you will need at least 6 GB of available storage to download the lab image for our class.
+3. In addition to the system requirements for Docker which have a minimum of 4GB of RAM, you will need at least 6 GB of available storage to download the lab image for our class.
 
 **Windows:**
 1. For Windows, Docker Desktop requires Windows 10 64-bit Pro, Enterprise, or Education. Details for Windows installs can be found here- [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/). Windows 10 Home Edition does not support Docker Desktop, but ASU has a program that allows students to upgrade for
