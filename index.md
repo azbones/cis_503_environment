@@ -106,6 +106,8 @@ The primary way to interact with Docker is via a terminal window (command line).
 
     <div style="text-align:center"><img src="images/password.png" /></div>
 
+9. If you lose your password or want to start over with a clean image, first delete your existing container with the command `docker rm cis503`. Then, start over in step 3 above by using the `docker run -p 4444:8888 --name cis503 azbones/cis503` command and following the instructions to login to a fresh Jupyter Notebook.
+
 ### Uninstall Docker
 
 If you would like to uninstall Docker and the CIS 503 environment, open the Docker application and navigate to the "reset" menu and select "uninstall".
